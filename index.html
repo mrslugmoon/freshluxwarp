@@ -1,1 +1,31 @@
-<iframe src="https://b1622138-7c90-4b26-b51b-52bb03447833-00-wgb8zd4rdi0w.kirk.replit.dev/" width="100%" height="500px"></iframe>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Full Screen iframe</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure html and body take full height */
+    overflow: hidden; /* Hide scrollbars if content overflows */
+  }
+
+  iframe {
+    display: block; /* Iframes are inline by default, block helps with sizing */
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    border: none; /* Remove default border */
+    position: fixed; /* Position relative to the viewport */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+</style>
+</head>
+<body>
+
+<iframe src="https://b1622138-7c90-4b26-b51b-52bb03447833-00-wgb8zd4rdi0w.kirk.replit.dev/" allowfullscreen></iframe>
+
+</body>
+</html>
